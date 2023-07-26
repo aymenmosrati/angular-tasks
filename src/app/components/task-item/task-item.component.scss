@@ -1,16 +1,23 @@
 .task {
-  background: #f4f4f4;
-  margin: 5px;
-  padding: 10px, 20px;
-  cursor: pointer;
 }
 
 .task.reminder {
   border-left: 5px solid green;
 }
 
-.task h3 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.task {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 5px 30px;
+  cursor: pointer;
+  > h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .icon-remove-task:hover {
+      font-size: 20px;
+      color: rgb(77, 22, 22);
+    }
+  }
 }
