@@ -1,16 +1,28 @@
 {
   "tasks": [
     {
-      "text": "",
-      "day": "",
-      "reminder": false,
+      "text": "Learn Angular",
+      "day": "30/07/2032",
+      "reminder": true,
       "id": 1
     },
     {
-      "text": "test",
-      "day": "",
-      "reminder": false,
+      "text": "Sport",
+      "day": "evry day 7:30h",
+      "reminder": true,
       "id": 2
+    },
+    {
+      "text": "Learn Docker",
+      "day": "start in 07/08/2023",
+      "reminder": false,
+      "id": 3
+    },
+    {
+      "text": "Learn CI/CD",
+      "day": "20/08/2023",
+      "reminder": false,
+      "id": 4
     }
   ]
 }
