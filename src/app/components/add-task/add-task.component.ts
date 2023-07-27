@@ -24,17 +24,18 @@ export class AddTaskComponent {
   onSubmit() {
     if (!this.text) {
       alert('Please add a task!');
-    }
-    const newTask = {
-      text: this.text,
-      day: this.day,
-      reminder: this.reminder,
-    };
-    // @todo - emit event
-    this.onAddTask.emit(newTask);
+    } else {
+      const newTask = {
+        text: this.text,
+        day: this.day,
+        reminder: this.reminder,
+      };
+      // @todo - emit event
+      this.onAddTask.emit(newTask);
 
-    this.text = '';
-    this.day = '';
-    this.reminder = false;
+      // this.text = '';
+      // this.day = '';
+      // this.reminder = false;
+    }
   }
 }

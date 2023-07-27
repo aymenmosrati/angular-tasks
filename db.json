@@ -23,6 +23,12 @@
       "day": "20/08/2023",
       "reminder": false,
       "id": 4
+    },
+    {
+      "text": "",
+      "day": "",
+      "reminder": false,
+      "id": 5
     }
   ]
 }
